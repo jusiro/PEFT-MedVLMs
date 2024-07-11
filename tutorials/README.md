@@ -1,14 +1,12 @@
 # DLMI24_HO_FM 
 
 ### Foundation models for medical imaging: Hands on!
----
 
 This project includes required codebase for an **introductory hands-on sesion on vision-language foundation models for medical image analysis**. Also, we include the particular details for Datasets prepation in this file (***see below***), and instructions for setting the Saturn Cloud resources (***`./local_data/guides/resources.pdf`***). 
 
 Also, an **introductory video** is available at [LINK]().
 
 ## Overview
----
 
 **Foundation models are large-scale networks, pre-trained on large, heterogeneus sources, which can be efficeintly adapted to a variety of downstream tasks**.
 
@@ -34,7 +32,7 @@ In this tutorial, due to the large resources required for pre-trained, **we will
             1.5.2. Additive (LoRA)
 
 ## Datasets 
----
+
 **Required time: 15-20 minutes**
 ​
 #### Vision-Language Models 
@@ -47,7 +45,7 @@ The download process is fast, you only need around **2 minutes**. Then, locally 
 ​
 
 ## Folder Overview
---- 
+
 
 Once you have download all datasets and models, your project should present the following structure:
 
@@ -68,6 +66,6 @@ Once you have download all datasets and models, your project should present the 
 ```
 
 ## References
---- 
+
 
 [1] Silva-Rodríguez, J., Colomer, A., Sales, M. A., Molina, R., & Naranjo, V. (2020). Going deeper through the Gleason scoring scale : An automatic end-to-end system for histology prostate grading and cribriform pattern detection. Computer Methods and Programs in Biomedicine.
