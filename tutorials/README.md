@@ -1,14 +1,14 @@
-### Foundation models for medical imaging: Hands on!
+### Foundation models for medical imaging: Hands-on!
 
-This project includes required codebase for an **introductory hands-on sesion on vision-language foundation models for medical image analysis**. Also, we include the particular details for Datasets prepation in this file (***see below***).
+This project includes the required codebase for an **introductory hands-on session on vision-language foundation models for medical image analysis**. Also, we include the particular details for Datasets preparation in this file (***see below***).
 
 ## Overview
 
-**Foundation models are large-scale networks, pre-trained on large, heterogeneus sources, which can be efficeintly adapted to a variety of downstream tasks**.
+**Foundation models are large-scale networks, pre-trained on large, heterogeneous sources, which can be efficiently adapted to various downstream tasks**.
 
-In particular, this tutorial is focused on **vision specialized medical foundation models**. This is, **modality-specialized** pre-trained networks. For example, we will work over models pre-trained uniquely on histology data. Such specialized vision models provide specially efficient transferability to new tasks/datasets. For example, they can be adapted using only **few labeled** examples (so-called **shots**), and requiring **minimal parameter tuning**.
+In particular, this tutorial is focused on **vision specialized medical foundation models**. These are, **modality-specialized** pre-trained networks. For example, we will work over models pre-trained uniquely on histology data. Such specialized vision models provide especially efficient transferability to new tasks/datasets. For example, they can be adapted using only **few labeled** examples (so-called **shots**), and requiring **minimal parameter tuning**.
 
-In this tutorial, due to the large resources required for pre-trained, **we will focus on the adaptation stage**. Nevertheless, we will introduce toy examples to introduce the student to typical losses and pipelines employed. Regarding the adaptation, **you will learn how to archieve state-of-the-art performance on your image classification dataset employing minimum data and computing resources by leveraging recently introduced vision-language foundation models**. 
+In this tutorial, due to the large resources required for pre-training, **we will focus on the adaptation stage**. Nevertheless, we will introduce toy examples to introduce the student to typical losses and pipelines employed. Regarding the adaptation, **you will learn how to achieve state-of-the-art performance on your image classification dataset employing minimum data and computing resources by leveraging recently introduced vision-language foundation models**. 
 
 ### Index
 
@@ -35,19 +35,19 @@ In this tutorial, due to the large resources required for pre-trained, **we will
 
 In the following, we describe the required datasets for the activities carried out for vision-language medical foundation models. We will mostly focus on the adaptation of pre-trained models, for which you requiere to prepare the following data sources.
 ​
-- [SICAPv2](https://data.mendeley.com/datasets/9xxm58dvs3/2) This datasets, originary from the paper [1] contains histology images of tumor prostate tissue labeled at the image level into different severity grades, so-called Gleason grades. The task considered is image level multi-class classification.
+- [SICAPv2](https://data.mendeley.com/datasets/9xxm58dvs3/2) This dataset, originally from the paper [1] contains histology images of tumor prostate tissue labeled at the image level into different severity grades, so-called Gleason grades. The task considered is image-level multi-class classification.
 
-The download process is fast, you only need around **2 minutes**. Then, locally extract the folder `SICAPv2`, and upload it to the Saturn Cloud Project. The upload process to `./local_data/datasets/` might take around **10-15 minutes**, and you require around 2,0 Gb of disk memory. Finally, unzip by running `unzip SICAPv2.zip` in a command window, and ready!
+The download process is fast, you only need around **2 minutes**. Then, locally extract the folder `SICAPv2`, and upload it to the Project. The upload process to `./local_data/datasets/` might take around **10-15 minutes**, and you require around 2,0 Gb of disk memory. Finally, unzip by running `unzip SICAPv2.zip` in a command window, and ready!
 ​
 
 ## Folder Overview
 
 
-Once you have download all datasets and models, your project should present the following structure:
+Once you have downloaded all datasets and models, your project should present the following structure:
 
 ```
     .
-    ├── DLMI24_HO_FM/
+    ├── HO_FM/
     │   ├── local_data/
     │   │   └──datasets/
     │   │      └── SICAPv2
