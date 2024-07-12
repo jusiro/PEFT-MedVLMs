@@ -1,8 +1,6 @@
 ### Foundation models for medical imaging: Hands on!
 
-This project includes required codebase for an **introductory hands-on sesion on vision-language foundation models for medical image analysis**. Also, we include the particular details for Datasets prepation in this file (***see below***), and instructions for setting the Saturn Cloud resources (***`./local_data/guides/resources.pdf`***). 
-
-Also, an **introductory video** is available at [LINK]().
+This project includes required codebase for an **introductory hands-on sesion on vision-language foundation models for medical image analysis**. Also, we include the particular details for Datasets prepation in this file (***see below***).
 
 ## Overview
 
